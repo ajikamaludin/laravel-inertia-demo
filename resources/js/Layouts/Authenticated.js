@@ -14,13 +14,13 @@ export default function Authenticated({ breadcrumbs, children }) {
                         href={route('index')}
                         className="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline"
                     >
-                        InertiaJs
+                        inertiajs
                     </Link>
                     {/* x button */}
                 </div>
 
                 <nav className="flex-grow px-4 pb-4 md:pb-0 md:overflow-y-auto">
-                    <ul className="menu py-3 bg-base-100 rounded-box">
+                    <ul className="menu py-3 bg-base-100 rounded">
                         <li>
                             <Link href={route('dashboard')}>Dashboard</Link>
                         </li>
